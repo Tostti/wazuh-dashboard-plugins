@@ -505,7 +505,7 @@ export const AgentsTable = compose(
           agent={agent}
           reloadAgents={() => reloadAgents()}
           onClose={() => {
-            setIsEditGroupsVisible(false);
+            setIsUpgradeModalVisible(false);
             setAgent(undefined);
           }}
           setIsUpgradePanelClosed={setIsUpgradePanelClosed}
